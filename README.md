@@ -16,13 +16,21 @@ You will need to have Docker and Docker Compose installed in order to run this p
 `$ cd core`  -or-  
 `$ cd sample_project`  
 
-###### Now, build the container
+###### Then build the container
 
 `$ docker-compose build`
 
-###### Then run the app:
+###### Now, start the database service:
 
-`$ docker-compose up`
+`$ docker-compose up db`  
+
+> **Note**  
+>  
+> You must wait for the database service to complete it's start-up ssequence before moving on to the next step.  
+
+###### Finally, start the other services (django & frontend):  
+  
+`$ docker-compose up`  
 
 ###### Check to see if it worked.
 
