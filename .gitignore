@@ -1,0 +1,6 @@
+.DS_Store
+*~
+*.stat
+
+# Database
+*/backend/db/data
