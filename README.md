@@ -26,7 +26,7 @@ You will need to have Docker and Docker Compose installed in order to run this p
 
 > **Note**  
 >  
-> You must wait for the database service to complete it's start-up sequence before moving on to the next step.  
+> You must wait for the database service to complete its start-up sequence before moving on to the next step.  
 > `LOG:  database system is ready to accept connections`  
 
 ###### Finally, start the other services (django & frontend):  
